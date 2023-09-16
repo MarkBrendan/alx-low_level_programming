@@ -19,7 +19,7 @@ void print_line(int n)
 		}
 		else
 		{
-			_putchar('-');
+			_putchar('_');
 		}
 	}
 	_putchar('\n');
