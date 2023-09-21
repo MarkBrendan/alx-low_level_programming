@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- * *_strcat - Write a function that concatenates two strings.
+ * *_strncat - Write a function that concatenates two strings.
  *
  * @dest: a pointer
  * @src: a pointer
-i *
+ * @n: number of element to concatenates
+ *
  * Return: dest
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i, j, k;
 
@@ -24,7 +25,7 @@ char *_strcat(char *dest, char *src)
 		j++;
 	}
 
-	for (k = 0; k <= j; k++)
+	for (k = 0; k < n; k++)
 	{
 		dest[i + k] = src[k];
 	}
