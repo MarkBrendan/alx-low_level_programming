@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * *_memset - Write a function that fills memory with a constant byte.
+ **_memset - Write a function that fills memory with a constant byte.
  *
- * @s:
- * @b:
- * @n:
+ * @s: the address of memory to print
+ * @b: constant to add
+ * @n: the size of the memory to print
  *
- * return: void
+ * Return: Returns a pointer to the memory area.
  */
 char *_memset(char *s, char b, unsigned int n)
 {
