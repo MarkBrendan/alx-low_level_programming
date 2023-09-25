@@ -18,8 +18,8 @@ char *_strchr(char *s, char c)
 		{
 			break;
 		}
-		s++;
+		i++;
 	}
-	return (s);
+	return (&s[i]);
 
 }
