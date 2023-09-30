@@ -4,7 +4,8 @@
  * _pow_recursion -  Write a function that returns the value of x
  * raised to the power of y.
  *
- * @n: the number of element
+ * @x: value x to raise y
+ * @y: value y to be raised by x
  *
  * Return: If n is lower than 0, the function should return -1
  * to indicate an error
