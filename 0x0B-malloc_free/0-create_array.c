@@ -22,7 +22,9 @@ char *create_array(unsigned int size, char c)
 
 	j = (char *) malloc(size * sizeof(char));
 
-	if (size == 0)
+
+
+	if (j == NULL)
 	{
 		return (NULL);
 	}
