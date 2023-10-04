@@ -4,7 +4,8 @@
 /**
  * *str_concat - Write a function that concatenates two strings
  *
- * @str: a copy of the string
+ * @s1: concatenate string to s1
+ * @s2: concatenate string to s2
  *
  *Return: returns NULL if str = 0
  */
@@ -39,7 +40,7 @@ char *str_concat(char *s1, char *s2)
 
 	for (l = 0; l <= k; l++)
 	{
-		j[i +l] = s2[l];
+		j[i + l] = s2[l];
 	}
 	return (j);
 }
