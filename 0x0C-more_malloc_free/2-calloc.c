@@ -32,7 +32,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	for (j = 0; j < nmemb * size; j++)
 		temp[j] = 0;
-	free(i);
 	return (i);
 
 }
