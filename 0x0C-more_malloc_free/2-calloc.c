@@ -5,8 +5,8 @@
  * *_calloc - Write a function that allocates memory for an array
  * using malloc.
  *
- * @nmemb:
- * @size:
+ * @nmemb: n element
+ * @size: the data type
  *
  * Return: void
  */
