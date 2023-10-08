@@ -4,8 +4,8 @@
 /**
  * *array_range - Write a function that creates an array of integers.
  *
- * @min: 
- * @max:
+ * @min:minimum value of the integer
+ * @max: maximun value of the integer
  *
  * Return: void
  */
