@@ -5,8 +5,8 @@
  * *_calloc - Write a function that allocates memory for an array
  * using malloc.
  *
- * @nmemb: n element
- * @size: the data type
+ * @nmemb: size of array
+ * @size: size of each element in the array
  *
  * Return: void
  */
@@ -32,6 +32,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	for (j = 0; j < nmemb * size; j++)
 		temp[j] = 0;
+	free(i);
 	return (i);
 
 }
