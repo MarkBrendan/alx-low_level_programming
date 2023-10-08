@@ -4,9 +4,9 @@
 /**
  * *malloc_checked - Write a function that allocates memory using malloc.
  *
- * @b: 
+ * @b: the number of memory to allocate
  *
- * Return: 
+ * Return: void
  */
 
 void *malloc_checked(unsigned int b)
@@ -19,6 +19,6 @@ void *malloc_checked(unsigned int b)
 	{
 		exit(98);
 	}
-	return(i);
+	return (i);
 
 }
