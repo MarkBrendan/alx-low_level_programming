@@ -30,8 +30,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		k++;
 	}
 
-	if (n >= k)
-		n = k;
 
 	i = malloc((j + n + 1) * sizeof(char));
 
