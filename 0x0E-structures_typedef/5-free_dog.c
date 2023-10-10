@@ -4,6 +4,8 @@
 /**
  * free_dog - Write a function that frees dogs.
  *
+ * @d: a pointer to free
+ *
  * Return: void
  */
 void free_dog(dog_t *d)
