@@ -4,7 +4,6 @@
 /**
  * *new_dog - Write a function that creates a new dog.
  *
- * @d: a pointer to a variable name struct dog
  * @name: first member
  * @age: second member
  * @owner: third member
@@ -29,7 +28,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	}
 
 	ptr_t->name = malloc((n + 1) * sizeof(char));
-	
+
 	if (ptr_t->name == NULL)
 		return (NULL);
 
