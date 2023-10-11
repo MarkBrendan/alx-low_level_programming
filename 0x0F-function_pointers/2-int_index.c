@@ -4,7 +4,7 @@
  * int_index - Write a function that searches for an integer.
  *
  * @array: array of number
- * @action: function to a pointer that return void
+ * @cmp: function to a pointer that return void
  * @size: number of element
  *
  * Return: If no element matches, return -1
