@@ -22,15 +22,15 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	for (num = 0; num < n; num++)
 	{
 		current_string = va_arg(l, const char *);
-	
+
 	if (current_string == NULL)
 	{
 		printf("(nil)");
-        }
+	}
 	else
 	{
 		printf("%s", current_string);
-        }
+	}
 	if (num < n - 1 && separator != NULL)
 	{
 		printf("%s", separator);
