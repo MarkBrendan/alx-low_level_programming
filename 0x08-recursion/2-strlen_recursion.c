@@ -5,7 +5,7 @@
  *
  * @s: the stringvariable to print
  *
- * Return: void
+ * Return: 0
  */
 int _strlen_recursion(char *s)
 {
