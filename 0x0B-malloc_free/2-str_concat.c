@@ -15,12 +15,19 @@ char *str_concat(char *s1, char *s2)
 	int i = 0, j = 0;
 	int k, l;
 
-	if (s1 == NULL && s2 == NULL)
-		return ('\0');
+	if (s1 == NULL)
+		s1 = "";
 
-	while (s1[i] != '\0' && s2[j] != '\0')
+	if (s2 == NULL)
+		s2 = "";
+
+	while (s1[i] != '\0')
 	{
 		i++;
+	}
+
+	while (s2[j] != '\0')
+	{
 		j++;
 	}
 
