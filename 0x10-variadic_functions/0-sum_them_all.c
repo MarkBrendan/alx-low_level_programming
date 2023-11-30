@@ -12,9 +12,10 @@ int sum_them_all(const unsigned int n, ...)
 {
 	unsigned int lop;
 	int sum = 0;
+
 	va_list(lis);
 
-	va_start (lis, n);
+	va_start(lis, n);
 
 	for (lop = 0; lop < n; lop++)
 	{
