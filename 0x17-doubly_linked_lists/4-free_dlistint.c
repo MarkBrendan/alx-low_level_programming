@@ -3,7 +3,6 @@
 /**
  * free_dlistint - Write a function that frees a dlistint_t list
  * @head: the head of the list
- * @n: integer
  *
  * Return: free
  */
