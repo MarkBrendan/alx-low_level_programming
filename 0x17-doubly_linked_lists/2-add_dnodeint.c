@@ -3,7 +3,7 @@
 /**
  * *add_dnodeint - Write a function that adds a new node at the
  * beginning of a dlistint_t list.
- * @h: the head of the list
+ * @head: the head of the list
  * @n: integer
  *
  * Return: address of the new element, or NULL if it failed
