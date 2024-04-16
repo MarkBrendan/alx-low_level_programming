@@ -10,28 +10,18 @@ hash_table_t *hash_table_create(unsigned long int size)
 {
 
 	hash_table_t **table;
-	unsigned long int num, fel_num;
+	unsigned long int num;
 
-	table = (hash_table_t**)malloc(sizeof(hash_table_t*) * size);
+	table = (hash_table_t **)malloc(sizeof(hash_table_t *) * size);
 
 	if (table == NULL)
 	{
 		return (NULL);
 	}
 
-	for(num = 0; num < size; num++)
+	for (num = 0; num < size; num++)
 	{
-		table[num] = (hash_table_t*)malloc(sizeof(hash_table_t));
-
-		if(table[num] == NULL)
-		{
-			for(fel_num = 0; fel_num < size; fel_num++)
-			{
-				free(table[num]);
-			}
-		}
-		free(table);
-		return (NULL);
+		table[num] = (hash_table_t *)malloc(sizeof(hash_table_t));
 
 	}
 
