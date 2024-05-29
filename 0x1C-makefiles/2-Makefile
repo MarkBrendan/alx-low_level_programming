@@ -6,7 +6,7 @@ CC = gcc
 SRC = main.c school.c
 
 ${NAME}: ${OBJ}
-	${CC} ${OBJ} -o school
+	${CC} ${OBJ} -o ${NAME}
 
 ${OBJ}: ${SRC}
 	${CC} -c -o ${SRC}
