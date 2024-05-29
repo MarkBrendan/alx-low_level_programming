@@ -1,12 +1,12 @@
 all: school
 
 NAME = school
-OBJ = school.o main.o
+OBJ = ${wildcard *.o}
 CC = gcc
 SRC = main.c school.c
 
 ${NAME}: ${OBJ}
 	${CC} ${OBJ} -o school
 
-OBJ: ${SRC}
+${OBJ}: ${SRC}
 	${CC} -c -o ${SRC}
